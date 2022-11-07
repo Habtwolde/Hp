@@ -1,0 +1,478 @@
+/* light desktop theme */
+/* #668; */
+/* blueish A2BFE9; */
+/* #c8daf6;  */
+/* green design 
+$menu_border_bolor: #68b04d;
+$nav_bg_color: #68b04d;
+$nav_bg_hover_color: #589442;
+$citySelectorMenuPlaceholderColor: #666;
+$nav_fg_color: #fff;
+
+$nav_upper_bg_color: #4b7e37;
+$nav_arrow_url : url(../images/nav-arrow-down-white.png);
+$nav_sub_fg_color: #111; 
+
+$open_menu_item_border_color: #68b04d;
+$nav_sub_bg_color: #fff; /* #EFFAE2; */
+/* blue color scheme new idea #bdd1f0 
+$menu_border_bolor: #123274; 
+$menu_border_separator: #123274; 
+$nav_bg_color: #45619d;
+$nav_bg_hover_color: #123274;
+$citySelectorMenuPlaceholderColor: #668;
+$nav_fg_color: #fff;
+
+$nav_upper_bg_color: #D7E3F6; 
+$nav_arrow_url : url(../images/nav-arrow-down-white.png);
+$nav_sub_fg_color: #000; 
+$nav_sub_bg_color: #D7E3F6; 
+
+$open_menu_item_border_color: #123274; 
+*/
+/* #b9d1f6; */
+/* e6b416; /* A2BFE9; */
+/* #fff7db #FFF9E6 FFFAE8; */
+/* #FAFFF4; */
+/* #002BB8;  /* COLOR2  */
+/*prevent reflow on big screens and small pages */
+@media screen and (min-width: 1025px) {
+  html {
+    overflow-y: scroll; } }
+.seeding-call, .co2_consumption_info, .askToAddCommunity, .about_numbeo, .no-much-data, .who_pollution_data_widget, .fancy_explanation, .limit_size_ad_right {
+  max-width: 675px; }
+
+.seeding-call-large {
+  font-size: 108%; }
+
+.innerWidth {
+  min-width: 1024px;
+  /* alternative 1324 + 9 */
+  max-width: 1024px;
+  margin: 0 auto;
+  display: block; }
+
+.logo-and-upper-ad {
+  padding-left: 5px;
+  background-color: #fff;
+ /*
+background-color: #e9eef6;
+/* background-color: #fff; */
+  /*background-image: url('../images/genpattern30.png'); */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a2bfe9+0,c8daf6+20,c8daf6+72,a2bfe9+100 */
+  /* this goes with dark blue gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#607aaf+0,b0c5e7+13,e8f0ff+24,607aaf+78,4c669b+100 */
+  /* less distractive Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8fa2ca+0,b0c5e7+11,e8f0ff+24,8fa2ca+78,8095c1+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d9e3f6+0,e8f0ff+17,d9e3f6+100 */
+  /* other idea Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9eafd2+0,cad6ed+11,e8f0ff+24,adbcdb+78,9eafd2+100 */
+  /*
+  background: rgba(215,227,246,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(215,227,246,1) 0%, rgba(186,207,239,1) 78%, rgba(186,207,239,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(215,227,246,1)), color-stop(78%, rgba(186,207,239,1)), color-stop(100%, rgba(186,207,239,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(215,227,246,1) 0%, rgba(186,207,239,1) 78%, rgba(186,207,239,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(215,227,246,1) 0%, rgba(186,207,239,1) 78%, rgba(186,207,239,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(215,227,246,1) 0%, rgba(186,207,239,1) 78%, rgba(186,207,239,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(215,227,246,1) 0%, rgba(186,207,239,1) 78%, rgba(186,207,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7e3f6', endColorstr='#bacfef', GradientType=1 );
+  */ }
+
+table.data_wide_table, .page_wide {
+  min-width: 740px;
+  border-spacing: 0px 2px; }
+
+.wide_next_to_big_float_right {
+  max-width: 715px;
+  min-width: 715px; }
+
+.page_wide {
+  clear: both; }
+
+.jquery_bar {
+  width: 150px;
+  /* was 200px */
+  height: 15px;
+  display: inline-block;
+  /* background-color: rgba(0, 0, 0, 0.05); /*disable if using jquery */ }
+
+.jquery_bar_small {
+  width: 70px;
+  height: 15px;
+  display: inline-block; }
+
+td.trafficTd {
+  min-width: 300px; }
+
+th.trafficCaptionTh {
+  min-width: 200px;
+  font-weight: 600;
+  text-align: left; }
+
+td.trafficCaptionTd {
+  min-width: 200px; }
+
+.barWithFullValue {
+  display: inline;
+  min-width: 300px;
+  width: 300px;
+  height: 15px; }
+
+td.columnWithName {
+  min-width: 260px; }
+
+.form_community_member {
+  min-width: 26em; }
+
+.page_login_container_no_border {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  width: 480px; }
+
+.offerMembershipModal {
+  display: none; }
+
+.offerMembershipNotModal {
+  background-color: #fff7db;
+  border: 1px solid #ffc800;
+  display: block;
+  margin-top: 10px;
+  padding: 5px 5px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  max-width: 675px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+.taxi_price_map_canvas {
+  float: left;
+  width: 59%;
+  height: 100%;
+  min-height: 500px;
+  border: 1px outset black; }
+
+table.hotel_price_country th {
+  font-size: 100%;
+  padding-left: 4px; }
+
+.progressbar {
+  float: right; }
+
+.space_left_2m {
+  padding-left: 2em; }
+
+.city_not_here {
+  display: block;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em; }
+
+td.cityOrCountryInIndicesTable {
+  width: 30%; }
+
+.country_gmaps_rankings {
+  width: 1010px;
+  height: 530px; }
+
+a.breadcrumb_link, a:visited.breadcrumb_link {
+  /*background-color: #fffcf0;  /*#e6eefa; /* e3ecfa; e1ebfa; /* e5ebf6; #e7edf6; /*e5ebf6; /* #D7E3F6; /* #eaeef6; */
+  border-radius: 4px;
+  padding: 2px; }
+
+.switcher_outer {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  display: block; }
+
+.breadcrumb {
+  display: block;
+  font-size: 90%;
+  margin-bottom: 2px;
+  margin-top: 0.8em;
+  padding-right: 0.5em; }
+
+h2 {
+  font-weight: 600; }
+
+h1 {
+  margin: 0;
+  margin-top: 0.5em;
+  font-weight: 600;
+  font-size: 150%; }
+
+h2 {
+  margin-top: 0.5em;
+  margin-bottom: 2px;
+  font-size: 125%; }
+
+h2.late_h2 {
+  margin-top: 1px;
+  margin-bottom: 9px; }
+
+h4 {
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-size: 110%; }
+
+table.social_share {
+  margin-top: 6px;
+  /* min-width: 400px; */
+  max-width: 670px;
+  margin-bottom: 2px; }
+
+tr.prices_row > td, tr.prices_row > th {
+  padding-top: 9px; }
+
+tr.prices_row_comparison > td, tr.prices_row_comparison > th, th.prices_comparison, td.prices_comparison_like_th {
+  padding-top: 16px; }
+
+th.prices {
+  padding-top: 9px; }
+
+table.data_wide_table tbody tr:first-child th.prices {
+  padding-top: 3px; }
+
+.chart_bar {
+  background-color: #E9F2FB;
+  /* f1FDFE; /* #eEFCFC; /* #FDF0F4; /* fff6f6 */
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #A2BFE9; }
+
+.chart_bar_bigger {
+  padding: 0.4em;
+  display: block;
+  width: 100%; }
+
+td.social-inner {
+  padding-right: 1.5em;
+  /* min-width: 60px; */
+  vertical-align: middle;
+  padding-bottom: 0;
+  padding-top: 0; }
+
+.pie_chart_could_be_big {
+  max-width: 90%;
+  max-height: 50%;
+  width: 520px;
+  height: 300px; }
+
+.pie_chart_desktop_friendly {
+  max-width: 675px;
+  max-height: 90%;
+  width: 675px;
+  height: 300px; }
+
+.nearby_city_info {
+  display: block; }
+
+.bar_chart_could_be_big {
+  max-width: 90%;
+  max-height: 50%;
+  width: 750px;
+  height: 270px; }
+
+.historical_chart_could_be_big {
+  max-width: 100%;
+  max-height: 50%;
+  height: 300px; }
+
+.footer_content {
+  margin-top: 7px;
+  padding-top: 5px; }
+
+.before_or_select_location_form {
+  display: inline;
+  white-space: nowrap; }
+
+.some_small_space_before {
+  margin-top: 3px; }
+
+.select_region_links {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: block;
+  width: 100%; }
+
+.ad_for_tralev {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url("../images/tralev_ad_728x90.gif");
+  width: 728px;
+  height: 90px;
+  border: 1px solid #005ab5;
+  margin-bottom: 9px;
+  margin-top: 9px; }
+
+.smallspace_before_right_column {
+  padding-right: 5px; }
+
+.fit_img_to_250 {
+  max-width: 260px;
+  max-height: 60px;
+  margin: 5px;
+  vertical-align: middle; }
+
+table.in_the_news_table {
+  border-spacing: 10px 5px; }
+
+table.in_the_news_table tr td {
+  vertical-align: middle; }
+
+.min_height_20perc {
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 90px; }
+
+.img_could_be_big {
+  max-width: 1024px; }
+
+.print_on_small_devices {
+  display: none; }
+
+.fit_next_to_right_ad {
+  max-width: 690px; }
+
+.table_builder_with_value_explanation {
+  margin-top: 9px;
+  margin-bottom: 9px; }
+
+.select_location_form {
+  font-size: 110%; }
+
+.select_location_form input, .select_location_form select {
+  font-size: 100%; }
+
+.select_location_form select {
+  min-width: 30ex;
+  max-width: fit-content; }
+
+.text_block, .text_block_centered {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em; }
+
+.text_block_more_space, .text_block_centered_more_space {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em; }
+
+.text_block_extra_more_space {
+  margin-bottom: 3em;
+  margin-top: 3em; }
+
+.hotel_outline_box td, .hotel_outline_box th {
+  padding-right: 10px; }
+
+.hotel_outline_box th {
+  font-weight: 600; }
+
+.tr_highlighted_more > td {
+  padding-top: 5px; }
+
+.table_indices_bigger {
+  font-size: 108%; }
+
+.green_box {
+  max-width: 675px; }
+
+a.enterDataA, a:visited.enterDataA {
+  padding: 3px 8px;
+  border-radius: 5px; }
+
+/*
+  .logo_icon,  .logo_text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .logo_icon {
+    height: 2.2em;
+    padding-left: 1ex;
+    vertical-align: middle;
+  }
+  
+  .logo_text {
+    padding-left: 0.5em;
+    height: 1.4em;
+    vertical-align: bottom;
+    padding-bottom: 0.1em;
+    /*padding-top: 2px; 
+    padding-bottom: 2px; 
+  }
+  */
+.ad_mid_page_float, .ad_bottom_page_float {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 9px;
+  margin-top: 9px; }
+
+.city-selector-menu, .result_switcher {
+  height: 21px;
+  font: 500 1.08rem/21px Arial, sans-serif;
+  padding: 1px;
+  border-radius: 2px; }
+
+.result_switcher {
+  box-sizing: content-box;
+  display: inline-block; }
+
+.city-selector-menu, .result_switcher {
+  background-color: transparent;
+  border: 1px solid #aaa; }
+
+.city-selector-menu::-webkit-input-placeholder {
+  color: #666; }
+
+.city-selector-menu:-moz-placeholder {
+  color: #666; }
+
+.city-selector-menu::-moz-placeholder {
+  color: #666; }
+
+.city-selector-menu:-ms-input-placeholder {
+  color: #666; }
+
+.result_switcher {
+  color: #666; }
+
+.result_switcher:hover, .result_switcher:active {
+  color: #000; }
+
+.td_in_header_menu {
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 2.5em;
+  vertical-align: middle;
+  height: 100%; }
+
+span.we_need_your_help {
+  white-space: nowrap; }
+
+.not_break_table td {
+  white-space: nowrap; }
+
+.margin_left {
+  margin-left: 9px; }
+
+p {
+  margin-top: 9px;
+  margin-bottom: 9px; }
+
+.indexValueTd {
+  padding-right: 0.6em; }
+
+.new-select-sizing {
+  width: 28ex; }
+
+.image_employee {
+  width: 250px; }
+
+.green_box_fit_content {
+  max-width: 520px;
+  max-width: fit-content; }
+
+/*# sourceMappingURL=style_desktop.css.map */

@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mhts.hp">
+
+    <application>
+        <provider
+            android:name="com.example.mhts.hp.provider_paths"
+            android:authorities="com.example.mhts.hp"
+            android:enabled="true"
+            android:exported="true"></provider>
+    </application>
+
+</manifest>

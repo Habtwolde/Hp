@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Account.Signup">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img"
+                android:layout_width="199dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:src="@drawable/icon2"
+                app:civ_border_color="@color/amber_300"
+                app:civ_border_width="2dp"
+                app:civ_fill_color="@color/Logi3n_btn_coloi9r"
+                app:srcCompat="@drawable/traf" />
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/nested_scroll_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:clipToPadding="false"
+                    android:scrollbars="none"
+                    android:scrollingCache="true"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lyt_form"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_large">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/personcxc"
+                                    android:layout_width="@dimen/spacing_mxlarge"
+                                    android:layout_height="@dimen/spacing_mxlarge"
+                                    android:layout_marginTop="@dimen/spacing_mlarge"
+                                    android:background="@android:color/transparent"
+                                    android:tint="@color/grey_60"
+                                    app:srcCompat="@drawable/ic_person" />
+
+                                <View
+                                    android:layout_width="@dimen/spacing_large"
+                                    android:layout_height="match_parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="@color/grey_40">
+
+                                    <android.support.v7.widget.AppCompatEditText
+                                        android:id="@+id/officername2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name"
+                                        android:inputType="textPersonName" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/pers34oncxc"
+                                        android:layout_width="@dimen/spacing_mxlarge"
+                                        android:layout_height="@dimen/spacing_mxlarge"
+                                        android:layout_marginTop="@dimen/spacing_mlarge"
+                                        android:background="@android:color/transparent"
+                                        android:tint="@color/grey_60"
+                                        app:srcCompat="@drawable/ic_phone" />
+
+                                    <View
+                                        android:layout_width="@dimen/spacing_large"
+                                        android:layout_height="match_parent" />
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColorHint="@color/grey_40">
+
+                                        <android.support.v7.widget.AppCompatEditText
+                                            android:id="@+id/officerPhone2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Phone Number"
+                                            android:inputType="phone" />
+
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/personcxjkjkc"
+                                        android:layout_width="@dimen/spacing_mxlarge"
+                                        android:layout_height="@dimen/spacing_mxlarge"
+                                        android:layout_marginTop="@dimen/spacing_mlarge"
+                                        android:background="@android:color/transparent"
+                                        android:tint="@color/grey_60"
+                                        app:srcCompat="@drawable/ic_email" />
+
+                                    <View
+                                        android:layout_width="@dimen/spacing_large"
+                                        android:layout_height="match_parent" />
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColorHint="@color/grey_40">
+
+                                        <android.support.v7.widget.AppCompatEditText
+                                            android:id="@+id/officerEmail2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Email"
+                                            android:inputType="textEmailAddress" />
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/pe12rsoncxc"
+                                    android:layout_width="@dimen/spacing_mxlarge"
+                                    android:layout_height="@dimen/spacing_mxlarge"
+                                    android:layout_marginTop="@dimen/spacing_mlarge"
+                                    android:background="@android:color/transparent"
+                                    android:tint="@color/grey_60"
+                                    app:srcCompat="@drawable/ic_lock_black_24dp" />
+
+                                <View
+                                    android:layout_width="@dimen/spacing_large"
+                                    android:layout_height="match_parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="@color/grey_40"
+                                    app:passwordToggleEnabled="true">
+
+                                    <android.support.v7.widget.AppCompatEditText
+                                        android:id="@+id/officerPassword2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Password"
+                                        android:inputType="textPassword" />
+                                </android.support.design.widget.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/pe90rsoncxc"
+                                    android:layout_width="@dimen/spacing_mxlarge"
+                                    android:layout_height="@dimen/spacing_mxlarge"
+                                    android:layout_marginTop="@dimen/spacing_mlarge"
+                                    android:background="@android:color/transparent"
+                                    android:tint="@color/grey_60"
+                                    app:srcCompat="@drawable/ic_domain" />
+
+                                <View
+                                    android:layout_width="@dimen/spacing_large"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColorHint="@color/grey_40">
+
+                                        <android.support.v7.widget.AppCompatEditText
+                                            android:id="@+id/policestation2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Police Station" />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColorHint="@color/grey_40">
+
+                                        <android.support.v7.widget.AppCompatEditText
+                                            android:id="@+id/BatchNumber2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="B.No/Unique No"
+                                            android:inputType="number" />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/dsdasdasd"
+                                    android:layout_width="@dimen/spacing_mxlarge"
+                                    android:layout_height="@dimen/spacing_mxlarge"
+                                    android:layout_marginTop="@dimen/spacing_mlarge"
+                                    android:background="@android:color/transparent"
+                                    android:tint="@color/grey_60"
+                                    app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="43dp"
+                                    android:layout_marginTop="24dp"
+                                    android:text="Upload Your Photo"
+                                    android:textSize="17sp" />
+
+                                <android.support.design.widget.FloatingActionButton
+                                    android:id="@+id/fab"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="59dp"
+                                    android:layout_marginTop="13dp"
+                                    android:clickable="true"
+                                    android:tint="@android:color/white"
+                                    app:backgroundTint="@color/colorPrimary"
+                                    app:fabSize="mini"
+                                    app:layout_anchor="@id/lyt_form"
+                                    app:layout_anchorGravity="top|end|right"
+                                    app:rippleColor="@color/white"
+                                    app:srcCompat="@drawable/ic_photo_camera" />
+
+                                <android.support.design.widget.FloatingActionButton
+                                    android:id="@+id/fab1"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_marginTop="13dp"
+                                    android:clickable="true"
+                                    android:tint="@android:color/white"
+                                    app:backgroundTint="@color/colorPrimary"
+                                    app:fabSize="mini"
+                                    app:layout_anchor="@id/lyt_form"
+                                    app:layout_anchorGravity="top|end|right"
+                                    app:rippleColor="@color/white"
+                                    app:srcCompat="@drawable/ic_insert_photo_black_24dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <Button
+                            android:id="@+id/sign_up_for_account"
+                            android:layout_width="361dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:text="Sign Up"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+            </android.support.design.widget.CoordinatorLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

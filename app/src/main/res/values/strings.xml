@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">TechTraffic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Action Setting</string>
+    <string name="Profilename">Profile Name</string>
+    <string name="ProfilePhone">Profile Phone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="TechTraffic">Tech Traffic</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+
+    <string name="short_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="middle_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin</string>
+    <string name="medium_lorem_ipsum">Quisque imperdiet nunc at massa dictum volutpat. Etiam id orci ipsum. Integer id ex dignissim</string>
+
+    <string-array name="codes">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+
+    <string-array name="edits_array_1">
+        <item>Violation Against Speed Limit</item>
+        <item>Violation Against Disobey Orders</item>
+        <item>Violation Against Dis-Resecting Signs</item>
+    </string-array>
+
+    <string-array name="edits_array_2">
+        <item>Violation Against Using Drugs</item>
+        <item>Violation Against Hit and Run</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>Very High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Very Low</item>
+    </string-array>
+
+    <string-array name="Regions">
+        <item>  A A </item>
+        <item>  A M </item>
+        <item>  O R </item>
+        <item>  S P </item>
+        <item>  G M </item>
+        <item>  T G </item>
+        <item>  S M </item>
+        <item>  A F </item>
+        <item>  D R </item>
+        <item>  B G </item>
+        <item>  M L </item>
+        <item>  E T </item>
+        <item>  C D </item>
+    </string-array>
+
+    <string name="title_activity_place_autocomplete">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>

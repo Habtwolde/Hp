@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivities.ReportViolation">
+
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_large">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR DETAILS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorReportViolationPrimaryDark"
+                app:fontFamily="sans-serif-medium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/platenumneber1"
+                    style="@style/EditText.Flat.Grey"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_round_bg_outline"
+                    android:hint="PLATE NO"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:minHeight="@dimen/spacing_xmlarge" />
+
+                <View
+                    android:layout_width="@dimen/spacing_middle"
+                    android:layout_height="0dp" />
+
+                <Spinner
+                    android:id="@+id/code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/ic_expand_arrow"
+                    android:drawableRight="@drawable/ic_expand_arrow"
+                    android:hint="Country"
+                    android:minHeight="@dimen/spacing_xmlarge" />
+
+                <View
+                    android:layout_width="@dimen/spacing_middle"
+                    android:layout_height="0dp" />
+
+                <Spinner
+                    android:id="@+id/Region1"
+                    style="@style/EditText.Flat.Grey"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/ic_expand_arrow"
+                    android:drawableRight="@drawable/ic_expand_arrow"
+                    android:hint="Country"
+                    android:minHeight="@dimen/spacing_xmlarge" />
+
+                <View
+                    android:layout_width="@dimen/spacing_middle"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:text="CRIME DETAILS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                app:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorReportViolationPrimaryDark"/>
+
+            <com.reginald.editspinner.EditSpinner
+                android:id="@+id/edit_spinner_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:hint="Crime Type"
+                android:minHeight="@dimen/spacing_xmlarge"
+                android:textColorHint="#aa828282"
+                android:textSize="17sp"
+                app:dropDownAnimStyle="@style/CustomPopupAnimation"
+                app:dropDownDrawable="@drawable/ic_expand_arrow"
+                app:dropDownDrawableHeight="25dp"
+                app:dropDownDrawableSpacing="15dp"
+                app:dropDownDrawableWidth="25dp" />
+            <View
+                android:layout_width="@dimen/spacing_middle"
+                android:layout_height="5dp" />
+
+            <com.reginald.editspinner.EditSpinner
+                android:id="@+id/edit_spinner_2"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:hint="Crime Section "
+                android:minHeight="@dimen/spacing_xmlarge"
+                android:textColorHint="#aa828282"
+                android:textSize="17sp"
+                app:dropDownAnimStyle="@style/CustomPopupAnimation"
+                app:dropDownDrawable="@drawable/ic_expand_arrow"
+                app:dropDownDrawableHeight="25dp"
+                app:dropDownDrawableSpacing="15dp"
+                app:dropDownDrawableWidth="25dp" />
+
+            <Button
+                android:id="@+id/notify_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_rounded_green_300"
+                android:backgroundTint="@color/colorReportViolationPrimaryDark"
+                android:text="Notify All"
+                android:textColor="@android:color/white" />
+            <View
+                android:layout_width="@dimen/spacing_middle"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Check the License"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorReportViolationPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-medium" />
+
+            <EditText
+                android:id="@+id/LicencseNumber121"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:inputType="number"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:hint="License Number Here"
+                android:minHeight="@dimen/spacing_xmlarge" />
+
+            <Button
+                android:id="@+id/ChecklicenseNUmber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_rounded_green_300"
+                android:backgroundTint="@color/colorReportViolationPrimaryDark"
+                android:text="Check Now!"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,75 @@
+.print_logo {
+	display: block !important;
+}
+.print_logo .print_logo_img {
+	width: 230px;
+	height: auto;
+}
+h2.tagline {
+	font-size: 22px;
+	color: #3a6d8f;
+	margin-top: -25px;
+}
+
+.container.carousel {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#lscsaCarousel {
+	padding-top: 15px;
+	height: auto !important;
+}
+
+.carousel-control,
+.carousel-caption,
+.carousel-indicators,
+.index .btn,
+#newsCarousel,
+.sub-menu,
+#listen-btn,
+.visible-xs,
+.subpage_banner,
+#back_to_top,
+#footer,
+.rspkr_dr_link,
+#livechat-eye-catcher,
+#livechat-compact-view {
+	display: none !important;
+}
+
+#maincontent,
+#v2maincontent {
+	width: 100% !important;
+}
+
+.v2content .btn {
+	padding: 0 !important;
+}
+
+.index .col-md-4 img {
+	display: none;
+}
+
+.index .panel-default>.panel-heading,
+.panel.landing-page-panel .panel-heading {
+	height: 0  !important;
+}
+
+.v2content ul li, .landing-page-panel ul li, .lhb-hp ul li {
+	list-style-type: square !important;
+	margin-left: 20px !important;
+	padding-right: 0px !important;
+}
+
+a[href]:after {
+    content: none !important;
+ }
+
+.literallayout p {
+	padding: 0;
+}
+
+.v2content footer {
+	display: none;
+}

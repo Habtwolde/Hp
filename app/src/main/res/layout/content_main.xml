@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/grey_10"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="141dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/trafficIcon"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/traf" />
+
+                    <TextView
+                        android:id="@+id/textView12898"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="Traffic Status"
+                        android:textAlignment="center"
+                        android:textColor="#FF7DBCEC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/History"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="12dp"
+                        app:srcCompat="@drawable/historyiconsmall" />
+
+                    <TextView
+                        android:id="@+id/textView1478"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:textAlignment="center"
+                        android:textColor="#FF2658A6" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="133dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/suspeciousicon"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/ic_notifications_active_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/textView129"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Suspecious Alerts"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorHistorynPrimary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/announcementicon"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/announcement1" />
+
+                    <TextView
+                        android:id="@+id/textView1894"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Announcements"
+                        android:textAlignment="center"
+                        android:textColor="#FFD7412D" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="141dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/reporticon"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/albanyassist_icon" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Report Violation"
+                        android:textAlignment="center"
+                        android:textColor="#e90808" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/overlay_light_90"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/crimereporticon"
+                        android:layout_width="160dp"
+                        android:layout_height="94dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/databaseicon" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime Report"
+                        android:textAlignment="center"
+                        android:textColor="#FF55558B" />
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
